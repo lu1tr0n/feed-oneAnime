@@ -1,5 +1,6 @@
 ### Feed de publicaciones One--Anime
 **Programador:** Luis Navarro(@lu1tr0n)
+
 **Lenguaje Utilizado:**
 
  - Python 2
