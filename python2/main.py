@@ -25,9 +25,9 @@ data = feedparser.parse(url)
 totalEntries = len(data.entries)
 
 print '##########################################################'
-print 'Nombre del Blog: 		' + data.feed.title
-print 'Url del Blog: 			' + data.feed.link
-print 'Descripcion del Blog: 	\t' + data.feed.description
+print 'Nombre del Blog:\t\t\t' + data.feed.title
+print 'Url del Blog:\t\t\t' + data.feed.link
+print 'Descripcion del Blog:\t\t' + data.feed.description
 print '##########################################################'
 
 

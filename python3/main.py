@@ -92,8 +92,6 @@ for post in data.entries:
 	# Data convert 
 	#parrafo = conversion.capitalize()
 
-	#if ''
-
 	# Synopsis
 	# Data where word begins
 	positionSipnosis = busqueda.find('Datos')
