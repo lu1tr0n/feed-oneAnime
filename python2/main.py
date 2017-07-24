@@ -71,12 +71,6 @@ for post in data.entries:
 				busqueda =  info[1].text 
 
 
-		# print '*** DATOS *****'
-		# print 'Titulo: ' + info[7].text
-		# print info[9].text
-
-		# print 'Imagenes: '
-
 		# Find all the images of Post
 		for img in soup.find_all('img'):
 			imagenes.append(img['src']) 
@@ -129,14 +123,6 @@ for post in data.entries:
 	# positionWeightEnd = busqueda.find('Subs:')
 	# print busqueda[positionQualityEnd:positionWeightEnd]
 
-	# Subs
-	#print "Subs: "
-
-	# Format
-	#print "Formato: "
-
-	# Password
-	#print "Contraseña: "
 
 	print imagenes
 
